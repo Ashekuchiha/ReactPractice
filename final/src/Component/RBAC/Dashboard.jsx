@@ -1,4 +1,3 @@
-// UserDashboard.js
 import React from 'react';
 const Dashboard = () => <div>Welcome to user Dashboard<ui>
     <li><button>view</button></li>

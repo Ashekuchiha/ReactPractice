@@ -1,4 +1,3 @@
-// Admin.js
 import React from 'react';
 const Admin = () => <div>Welcome to Admin Dashboard
     <ul>

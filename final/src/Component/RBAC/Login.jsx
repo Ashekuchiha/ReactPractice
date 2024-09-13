@@ -1,4 +1,3 @@
-// Login.js
 import React from 'react';
 import { useRole } from './RoleContext';
 import { useNavigate } from 'react-router-dom';
@@ -10,9 +9,9 @@ const Login = () => {
   const handleLogin = (role) => {
     selectRole(role);
     if (role === 'user') {
-      navigate('/user-dashboard'); // Redirect to user dashboard
+      navigate('/user-dashboard'); 
     } else if (role === 'admin') {
-      navigate('/admin-dashboard'); // Redirect to admin dashboard
+      navigate('/admin-dashboard');
     }
   };
 

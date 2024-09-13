@@ -1,4 +1,3 @@
-// Authorization.js
 import React from 'react';
 import { useRole } from './RoleContext';
 
